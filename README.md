@@ -52,9 +52,9 @@ Use the following code samples as example app config
 ```
 <dict>
     <key>serverURL</key>
-    <string>https://d8.jamfcloud.com</string>
+    <string>https://bobmarley.jamfcloud.com</string>
     <key>apiCredentials</key>
-    <string>ZnJlZDp2aFF5ckZTdTF0c0Y=</string>
+    <string>usdjghkjsdafhkjlfgdv=</string>
     <key>deviceID</key>
     <string>$JSSID</string>
     <key>forceDataEntry</key>
@@ -82,23 +82,23 @@ Use the following code samples as example app config
     <key>labelSites</key>
     <string>Site</string>
     <key>labelBuilding</key>
-    <string>BUILDINZ</string>
+    <string>건물</string>
     <key>labelDepartment</key>
-    <string>DEPARTOS</string>
+    <string>버블티</string>
     <key>allowErase</key>
     <true/>
     <key>clearActivation</key>
     <true/>
     <key>enabledEAs</key>
         <array>
-            <integer>2</integer>
-            <integer>3</integer>
-            <integer>5</integer>
+            <string>EA 2</string>
+            <string>EA 3</string>
+            <string>Support Name</string>
         </array>
     <key>editableEAs</key>
         <array>
-            <integer>2</integer>
-            <integer>3</integer>
+            <string>Support Name</string>
+            <string>EA 3</string>
         </array>
 </dict>
 ```
@@ -108,11 +108,11 @@ Use the following code samples as example app config
     <key>serverURL</key>
     <string>$JPS_URL</string>
     <key>apiCredentials</key>
-    <string></string>
+    <string>Hima!=</string>
     <key>deviceID</key>
     <string>$JSSID</string>
     <key>frontPageGraphic</key>
-    <string>https://d8web.s3-ap-southeast-1.amazonaws.com/cpa/CathayPacificVerticalEn_SM3.png</string>
+    <string></string>
     <key>submitText</key>
     <string>big black dog</string>
     <key>forceDataEntry</key>
